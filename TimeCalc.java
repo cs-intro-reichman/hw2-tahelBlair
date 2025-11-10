@@ -3,7 +3,7 @@ public class TimeCalc {
        int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
        int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
        int minutesToAdd = Integer.parseInt (args [1]);
-       int totalMin = (hours * 60) + minutes + minutesToAdd;
+       int totalMin = (hours * 60) + minutes + minutesToAdd; 
        int totalHours = totalMin / 60;
        int newHours = totalHours % 24;
        int newMin = totalMin - (totalHours * 60);

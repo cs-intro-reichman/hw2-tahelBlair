@@ -3,7 +3,7 @@ public class Collatz {
 	public static void main(String args[]) {
 	    int N = Integer.parseInt (args [0]);
         String mode = args[1];
-		if (mode.equals("v")){
+		if (mode.equals("v")){ 
 			int count = 1;
 			for (int i = 1; i<=N; i++) {
 				int j = i;

@@ -56,7 +56,7 @@ public class Cheers {
                 System.out.println("Give me " + aOrAn +" "+ bigCheer.charAt(i) + ": " + bigCheer.charAt(i) + 
                                    "!");
             }
-            System.out.println("what does that spell?");
+            System.out.println("What does that spell?");
             for (int i = 1; i<=num; i++) {
                 System.out.println(bigCheer + "!!!");
             }
